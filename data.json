@@ -1,0 +1,224 @@
+[
+  {
+    "title": "Luxury Property A",
+    "fullName": "John Doe",
+    "price": 500000,
+    "location": "New York",
+    "newProject": true,
+    "preLunch": true,
+    "areaSize": 200,
+    "propertyValue": 300000
+  },
+  {
+    "title": "Modern Residence",
+    "fullName": "Jane Smith",
+    "price": 450000,
+    "location": "London",
+    "newProject": false,
+    "preLunch": false,
+    "areaSize": 150,
+    "propertyValue": 350000
+  },
+  {
+    "title": "Cozy Home",
+    "fullName": "Michael Johnson",
+    "price": 300000,
+    "location": "Paris",
+    "newProject": true,
+    "preLunch": false,
+    "areaSize": 180,
+    "propertyValue": 400000
+  },
+  {
+    "title": "Luxury Estate",
+    "fullName": "Emma Williams",
+    "price": 600000,
+    "location": "Tokyo",
+    "newProject": true,
+    "preLunch": true,
+    "areaSize": 250,
+    "propertyValue": 450000
+  },
+  {
+    "title": "Charming Cottage",
+    "fullName": "Olivia Davis",
+    "price": 480000,
+    "location": "Sydney",
+    "newProject": false,
+    "preLunch": false,
+    "areaSize": 120,
+    "propertyValue": 500000
+  },
+  {
+    "title": "Modern Villa",
+    "fullName": "William Thompson",
+    "price": 550000,
+    "location": "Melbourne",
+    "newProject": true,
+    "preLunch": true,
+    "areaSize": 220,
+    "propertyValue": 550000
+  },
+  {
+    "title": "Cozy House",
+    "fullName": "Emily Johnson",
+    "price": 420000,
+    "location": "Berlin",
+    "newProject": false,
+    "preLunch": false,
+    "areaSize": 170,
+    "propertyValue": 480000
+  },
+  {
+    "title": "Luxury Mansion",
+    "fullName": "David Lee",
+    "price": 650000,
+    "location": "Madrid",
+    "newProject": true,
+    "preLunch": true,
+    "areaSize": 280,
+    "propertyValue": 600000
+  },
+  {
+    "title": "Charming Apartment",
+    "fullName": "Sophia Brown",
+    "price": 520000,
+    "location": "Rome",
+    "newProject": false,
+    "preLunch": false,
+    "areaSize": 190,
+    "propertyValue": 550000
+  },
+  {
+    "title": "Modern Villa",
+    "fullName": "Daniel smith",
+    "price": 580000,
+    "location": "Dubai",
+    "newProject": true,
+    "preLunch": true,
+    "areaSize": 230,
+    "propertyValue": 650000
+  },
+  {
+    "title": "Cozy House",
+    "fullName": "Alice Thompson",
+    "price": 440000,
+    "location": "Toronto",
+    "newProject": false,
+    "preLunch": false,
+    "areaSize": 150,
+    "propertyValue": 500000
+  },
+  {
+    "title": "Luxury Estate",
+    "fullName": "Charlie Wilson",
+    "price": 620000,
+    "location": "Hong Kong",
+    "newProject": true,
+    "preLunch": true,
+    "areaSize": 270,
+    "propertyValue": 680000
+  },
+  {
+    "title": "Charming Cottage",
+    "fullName": "Samantha Davis",
+    "price": 470000,
+    "location": "Beijing",
+    "newProject": false,
+    "preLunch": false,
+    "areaSize": 180,
+    "propertyValue": 550000
+  },
+  {
+    "title": "Modern Villa",
+    "fullName": "David Johnson",
+    "price": 540000,
+    "location": "Dalian",
+    "newProject": true,
+    "preLunch": true,
+    "areaSize": 240,
+    "propertyValue": 600000
+  },
+  {
+    "title": "Cozy House",
+    "fullName": "Emily smith",
+    "price": 400000,
+    "location": "Shanghai",
+    "newProject": false,
+    "preLunch": false,
+    "areaSize": 160,
+    "propertyValue": 480000
+  },
+  {
+    "title": "Luxury Mansion",
+    "fullName": "Olivia Thompson",
+    "price": 670000,
+    "location": "Shenzhen",
+    "newProject": true,
+    "preLunch": true,
+    "areaSize": 290,
+    "propertyValue": 700000
+  },
+  {
+    "title": "Charming Apartment",
+    "fullName": "Alice wilson",
+    "price": 530000,
+    "location": "Guangzhou",
+    "newProject": false,
+    "preLunch": false,
+    "areaSize": 200,
+    "propertyValue": 580000
+  },
+  {
+    "title": "Modern Villa",
+    "fullName": "David brow",
+    "price": 590000,
+    "location": "Chengdu",
+    "newProject": true,
+    "preLunch": true,
+    "areaSize": 250,
+    "propertyValue": 650000
+  },
+  {
+    "title": "Cozy House",
+    "fullName": "Samantha smith",
+    "price": 410000,
+    "location": "Nanjing",
+    "newProject": false,
+    "preLunch": false,
+    "areaSize": 170,
+    "propertyValue": 500000
+  },
+  {
+    "title": "Luxury Estate",
+    "fullName": "David lee",
+    "price": 640000,
+    "location": "Xi'an",
+    "newProject": true,
+    "preLunch": true,
+    "areaSize": 280,
+    "propertyValue": 680000
+  },
+  {
+    "title": "Charming Cottage",
+    "fullName": "Alice Johnson",
+    "price": 460000,
+    "location": "Wuhan",
+    "newProject": false,
+    "preLunch": false,
+    "areaSize": 190,
+    "propertyValue": 550000
+  },
+  {
+    "title": "Modern Villa",
+    "fullName": "David Brown",
+    "price": 560000,
+    "location": "Hefei",
+    "newProject": true,
+    "preLunch": true,
+    "areaSize": 240,
+    "propertyValue": 600000
+  }
+]
+
+

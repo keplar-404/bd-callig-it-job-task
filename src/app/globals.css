@@ -2,32 +2,83 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.bg_hero {
+  background-image: url("/herobg.mp4");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.buy_page {
+  background-image: url("/buypagebg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.btn {
+  display: flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 4px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+s {
+  color: #f06711;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+}
+s:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 65%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-bottom: 5px solid;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+select {
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("/arrow_down.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  border: 1px solid #aaa;
+  padding: 6px;
+  background-position-x: 95%;
+  -webkit-padding-end: 20px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    outline: none !important;
+}
+
+
+.range-slider__input::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Remove default appearance */
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+  background-color: orange; /* Set handle color */
+  border-radius: 50%; /* Round the handle */
+  cursor: pointer; /* Show pointer cursor */
+}
+
+/* Remove the default blue color while sliding */
+.range-slider__input::-moz-range-thumb {
+  background-color: orange; /* Set handle color */
+}
+.range-slider__input::-ms-thumb {
+  background-color: orange; /* Set handle color */
 }

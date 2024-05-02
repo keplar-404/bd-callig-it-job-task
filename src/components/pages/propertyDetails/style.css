@@ -1,0 +1,61 @@
+.range-slider {
+    position: relative;
+    width: 300px; /* Adjust width as needed */
+    height: 25px; /* Adjust height as needed */
+  }
+  
+  .range-slider__input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-appearance: none; /* Remove default appearance */
+    background: transparent; /* Remove default track */
+  }
+  
+  /* Style for lower input */
+  #lower {
+    z-index: 2; /* Ensure it's above the upper input */
+  }
+  
+  /* Style for upper input */
+  #upper {
+    z-index: 1; /* Ensure it's below the lower input */
+  }
+  
+  /* Customize the appearance of the range slider track */
+  .range-slider__input::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default appearance */
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    background-color: orange; /* Set handle color */
+    border-radius: 50%; /* Round the handle */
+    cursor: pointer; /* Show pointer cursor */
+  }
+  
+  /* Remove the default blue color while sliding */
+  .range-slider__input::-moz-range-thumb {
+    background-color: orange; /* Set handle color */
+  }
+  
+  .range-slider__input::-ms-thumb {
+    background-color: orange; /* Set handle color */
+  }
+  
+  /* Allow the range slider thumb to be draggable */
+  .range-slider__input::-webkit-slider-thumb:active {
+    cursor: grabbing; /* Change cursor when dragging */
+  }
+  
+  .range-slider__input::-moz-range-thumb:active {
+    cursor: grabbing; /* Change cursor when dragging */
+  }
+  
+  .range-slider__input::-ms-thumb:active {
+    cursor: grabbing; /* Change cursor when dragging */
+  }
+  
+  /* Enable pointer events on the range slider */
+  .range-slider__input {
+    pointer-events: auto;
+  }
+  
